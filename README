@@ -1,0 +1,9 @@
+ CarrierWave File Uploads application
+
+
+Commands
+
+  bundle
+  rails g uploader image
+  rails g migration add_image_to_paintings image:string
+  rake db:migrate
